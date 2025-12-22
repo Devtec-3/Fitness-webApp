@@ -1,0 +1,7 @@
+{
+  "name": "Aura: AI Life Architect",
+  "description": "The world's most advanced AI daily routine manager, powered by Gemini with real-time global intelligence and local awareness.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
