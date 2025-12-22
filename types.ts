@@ -1,4 +1,3 @@
-
 export enum TaskCategory {
   WORK = 'Work',
   HEALTH = 'Health',
@@ -58,4 +57,13 @@ export interface UserProfile {
   energyLevel: number;
   goals: string[];
   preferences: string;
+}
+
+export interface SyncedMetrics {
+  steps: number;
+  activeCalories: number;
+  sleepHours: number;
+  hrv: number; // Heart Rate Variability
+  rhr: number; // Resting Heart Rate
+  lastSync: string;
 }
